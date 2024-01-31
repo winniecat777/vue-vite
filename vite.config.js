@@ -8,6 +8,8 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  // base: "/repo name/",
+  base: "/vue-vite/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
